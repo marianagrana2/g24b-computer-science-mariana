@@ -1,4 +1,8 @@
- Invitar a un amigo a comer.
+POBLEMAS DE LÓGICA. 
+
+(PSEUDOCÓDIGO Y DIAGRAMAS DE FLUJO) 
+
+1.Invitar a un amigo a comer.
 -Tener un amigo.
 -Preguntarle si le gustaría ir a comer conmigo
 -Si me dice que no agradecerle por decirme que no
@@ -17,7 +21,7 @@
 -Si nos vamos juntos irnos.
 -Si no Despedirse.
 
- Invitar a sus amigos a ir al cine.
+2.Invitar a sus amigos a ir al cine.
 -Tener amigos.
 -Preguntarles si les gustaría ir al cine.
 -Si me dicen que no agradecerles y decirles ok. 
@@ -37,13 +41,48 @@
 -Salir de la sala de cine. 
 -Pensar que se va a hacer ahora. 
 
-Realizar una calculadora que sume dos números. 
-
+3.Realizar una calculadora que sume dos números. 
 -Introducir un número.
 -Si no es número mostrar error y pedir de nuevo. Si es número seguir proceso. 
 -Guardar en memoria número. 
 -Pedir introducir otro número.
 -Guardar en memoria nuevo número.
 -Sumar primer número guardado con segundo número guardado.
--Guardar resultado suma
--Mostrar resultado suma 
+-Guardar resultado suma en memoria.
+-Mostrar resultado suma en pantalla.
+
+4.Crear un programa que pueda calcular el perímetro y área de cualquier figura (círculo, triángulo, rectángulo). 
+-Mostrar mensaje para que seleccionen una figura. 
+-Seleccionar figura.
+-Si elige círculo pedir que introduzca un número para el radio. 
+	-Multiplicar el radio por 2 y por 3.1416 para el perímetro. Y para el área se multiplica 		3.1416 por el radio y por el radio de nuevo. 
+-Si elige triángulo pedir que introduzca un número para la base, un número para el lado, otro número para el otro lado y otro número para la altura. 
+	- Sumar todos los valores para el perímetro. Para el área multiplicar la base por la altura y 		se divide entre dos. 
+-Si elige rectángulo pedirle que introduzca un número para un lado y otro número para el otro lado.
+	-Multiplicar la base por altura para sacar el área. Y para el perímetro	se suma todos los 		lados y se multiplica por 2. 
+-Si no eligen figura, pedir que elija una opción. 
+-Si los datos no son números marcar error.Pedir que introduzca números válidos.
+-Guardar los números introducidos en memoria.
+-Realizar la operación correspondiente a la figura elegida. 
+-Guardar resultados de la operación.
+-Mostrar resultados en pantalla.
+
+5.Calcular la suma de los números que hay entre 1 y un número que el usuario ingrese por teclado.(debe ser mayor o igual a 2).
+-Mostrar mensaje pidiendo que ingrese un número mayor o igual a 2.
+-Si el número introducido es menor a 2. Mostrar un error y pedir que intente de nuevo. 
+-Si no es un número mostrar error y pedir que introduzca un dato válido.
+-Si es un número mayor o igual a 2, guardar el número en memoria.
+-Sumar 1 al número guardado en memoria.
+-Guardar resultado de la suma.
+-Mostrar el resultado en pantalla. 
+
+6.Realizar un programa que pueda calcular el factorial de un número . 
+-Mostrar mensaje pidiendo que ingrese un número.
+-Leer el número introducido.Si no es un número entero positivo pedir al usuario que intente de nuevo.
+-Si es un número entero positivo , continuar el proceso.
+-Escribir los números de forma descendente desde el ingresado por el usuario hasta el número uno. 
+-Multiplicar todos los números de forma consecutiva.
+-Guardar el resultado final de la multiplicación.
+-Mostrar en pantalla el resultado final de la multiplicación. 
+
+Link diagramas de flujo: https://whimsical.com/tarea01diagramas-de-flujo-FxwCWm2FeeEUHNpAA6WRxW
