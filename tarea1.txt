@@ -1,0 +1,49 @@
+ Invitar a un amigo a comer.
+-Tener un amigo.
+-Preguntarle si le gustaría ir a comer conmigo
+-Si me dice que no agradecerle por decirme que no
+-Si me dice que si preguntarle sobre su disponibilidad 
+-De acuerdo a su disponibilidad revisar la mía para ver que concuerden si no concuerdan mencionarlo y comentarle otra opción. 
+-Una vez que tenemos la disponibilidad (Hora y fecha) de ambos, preguntarle si le gustaría ir a tal restaurante. 
+-Si me dice que no preguntarle a dónde le gustaría ir.Hasta estar de acuerdo. 
+-Si me dice que si confirmar día y hora y lugar de encuentro.
+-El día previo enviar mensaje de confirmación.
+-El día de la reunion, esperar a mi amigo hasta que llegue.
+-Entrar al restaurante.
+-Comer.
+-Pagar.
+-Platicar un rato.
+-Preguntar si nos vamos juntos o cada quien por su lado. 
+-Si nos vamos juntos irnos.
+-Si no Despedirse.
+
+ Invitar a sus amigos a ir al cine.
+-Tener amigos.
+-Preguntarles si les gustaría ir al cine.
+-Si me dicen que no agradecerles y decirles ok. 
+-Si me dicen que sí preguntarles cuando pueden? y como a partir de qué hora?
+-Si yo no puedo darles la opción en la que yo puedo ir. 
+-Si yo también puedo decir de acuerdo y buscar las películas disponibles para ese día y horario.
+-Compartirles las funciones y su horario disponible. 
+-Elegir entre todos cual función queremos.
+-Si todos estamos de acuerdo confirmar la función, día, hora y donde nos quedamos a ver antes de entrar al cine. 
+-Si alguien está en desacuerdo comentar hasta llegar a un acuerdo.
+-El día previo confirmar la función, hora y donde nos vemos antes de entrar al cine.
+-El día de la función esperar en el lugar y hora confirmados hasta que estemos todos.
+-Ir a comprar las entradas.
+-Ir a comprar palomitas y refresco. 
+-Entrar a la sala de cine. 
+-Ver la película.
+-Salir de la sala de cine. 
+-Pensar que se va a hacer ahora. 
+
+Realizar una calculadora que sume dos números. 
+
+-Introducir un número.
+-Si no es número mostrar error y pedir de nuevo. Si es número seguir proceso. 
+-Guardar en memoria número. 
+-Pedir introducir otro número.
+-Guardar en memoria nuevo número.
+-Sumar primer número guardado con segundo número guardado.
+-Guardar resultado suma
+-Mostrar resultado suma 
