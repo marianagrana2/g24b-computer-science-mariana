@@ -55,11 +55,11 @@ POBLEMAS DE LÓGICA.
 -Mostrar mensaje para que seleccionen una figura. 
 -Seleccionar figura.
 -Si elige círculo pedir que introduzca un número para el radio. 
-	-Multiplicar el radio por 2 y por 3.1416 para el perímetro. Y para el área se multiplica 		3.1416 por el radio y por el radio de nuevo. 
+	-Multiplicar el radio por 2 y por 3.1416 para el perímetro. Y para el área se multiplica 3.1416 por el radio y por el radio de nuevo. 
 -Si elige triángulo pedir que introduzca un número para la base, un número para el lado, otro número para el otro lado y otro número para la altura. 
-	- Sumar todos los valores para el perímetro. Para el área multiplicar la base por la altura y 		se divide entre dos. 
+	- Sumar todos los valores para el perímetro. Para el área multiplicar la base por la altura y se divide entre dos. 
 -Si elige rectángulo pedirle que introduzca un número para un lado y otro número para el otro lado.
-	-Multiplicar la base por altura para sacar el área. Y para el perímetro	se suma todos los 		lados y se multiplica por 2. 
+	-Multiplicar la base por altura para sacar el área. Y para el perímetro	se suma todos los lados y se multiplica por 2. 
 -Si no eligen figura, pedir que elija una opción. 
 -Si los datos no son números marcar error.Pedir que introduzca números válidos.
 -Guardar los números introducidos en memoria.
