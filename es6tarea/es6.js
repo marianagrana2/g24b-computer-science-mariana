@@ -31,13 +31,13 @@ const students = [
 //let i= 0;
 const studentsActivesAndGoodGrades = []; //Se inicia con un arreglo vacio.
 
-/*while (i < students.length){
+while (i < students.length){
     if(students[i].grade > 8 && students[i].isActive){
         studentsActivesAndGoodGrades.push(students[i]);   //Agrega la nueva información al arreglo.
     }
     i++; // Agregarse a fuera para evitar bucle infinito
 }
-console.log(studentsActivesAndGoodGrades); */
+console.log(studentsActivesAndGoodGrades); 
 
 //Ciclo For 
 for (let i = 0; i <students.length; i++){
@@ -46,3 +46,11 @@ for (let i = 0; i <students.length; i++){
     }
 }
 console.log(studentsActivesAndGoodGrades);
+
+//ES6 
+
+//Filter
+const studentsActivesAndGoodGrade = students.filter(student => { // funcion flecha (student) =>{}  en lugar de function (student){}
+ return student.grade > 8 && student.isActive === true;
+});
+console.log(studentsActivesAndGoodGrade);
