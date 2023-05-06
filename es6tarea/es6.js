@@ -28,14 +28,21 @@ const students = [
     { id: 6, name: 'elsa', app: 'zapote', grade: 9, isActive: false },
 ] 
 //Ciclo While
-let i= 0;
+//let i= 0;
 const studentsActivesAndGoodGrades = []; //Se inicia con un arreglo vacio.
 
-while (i < students.length){
+/*while (i < students.length){
     if(students[i].grade > 8 && students[i].isActive){
         studentsActivesAndGoodGrades.push(students[i]);   //Agrega la nueva información al arreglo.
     }
     i++; // Agregarse a fuera para evitar bucle infinito
 }
-console.log(studentsActivesAndGoodGrades);
+console.log(studentsActivesAndGoodGrades); */
 
+//Ciclo For 
+for (let i = 0; i <students.length; i++){
+    if(students[i].grade > 8 && students[i].isActive){
+        studentsActivesAndGoodGrades.push(students[i]);   //Agrega la nueva información al arreglo.
+    }
+}
+console.log(studentsActivesAndGoodGrades);
