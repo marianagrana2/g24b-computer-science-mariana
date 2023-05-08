@@ -27,8 +27,9 @@ const students = [
     { id: 5, name: 'elsa', app: 'zapote', grade: 6, isActive: true },
     { id: 6, name: 'elsa', app: 'zapote', grade: 9, isActive: false },
 ] 
+/*
 //Ciclo While
-//let i= 0;
+let i= 0;
 const studentsActivesAndGoodGrades = []; //Se inicia con un arreglo vacio.
 
 while (i < students.length){
@@ -45,7 +46,7 @@ for (let i = 0; i <students.length; i++){
         studentsActivesAndGoodGrades.push(students[i]);   //Agrega la nueva información al arreglo.
     }
 }
-console.log(studentsActivesAndGoodGrades);
+console.log(studentsActivesAndGoodGrades);*/
 
 //ES6 
 
@@ -53,4 +54,16 @@ console.log(studentsActivesAndGoodGrades);
 const studentsActivesAndGoodGrade = students.filter(student => { // funcion flecha (student) =>{}  en lugar de function (student){}
  return student.grade > 8 && student.isActive === true;
 });
-console.log(studentsActivesAndGoodGrade);
+console.log('Con Filter',studentsActivesAndGoodGrade);
+
+//forEach
+const studentsActivesAndGoodGradeForEach = students.forEach((student) =>{
+    return student.grade > 8 && student.isActive === true;  
+});
+console.log('Con forEach',student);
+
+//Map 
+const studentActiveGoodGradeMap = students.map((student)=>{
+    return student.grade > 8 && student.isActive === true;  
+});
+console.log('Con Map',student);
