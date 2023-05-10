@@ -1,0 +1,14 @@
+*{
+    font-family: 'Arvo', serif;
+    background-color:#E9E2C7;
+}
+body{
+   min-height: 100vh; 
+}
+#footer{
+    color: #8A7B66;
+    position: absolute;
+    bottom: 0;
+    padding: 15px 20px;
+    margin-left: 15px;
+}
