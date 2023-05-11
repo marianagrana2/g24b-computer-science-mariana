@@ -4,7 +4,13 @@
 }
 body{
    min-height: 100vh; 
+   min-width: 100vw;
 }
+
+#header {
+    padding: 15px 20px;
+}
+
 #footer{
     color: #8A7B66;
     position: absolute;
