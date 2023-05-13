@@ -21,12 +21,12 @@ body{
     padding: 15px 20px;
 }
 /*Search General Section */
-.searchSection{
+#searchForm{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
-    padding-left: 20px;
+    gap: 2px;
+    padding-left: 2px;
 }
 
 .form-outline{
@@ -35,8 +35,8 @@ body{
     justify-content: center;
 
 }
-/* Filter Menu */
-.filter .form-select{
+/* Filter Dropdownns 
+#searchForm .form-select{
     background-color: #fffae6;
     color: #8a7b66;
     font-size: 15px;
@@ -47,7 +47,7 @@ body{
     min-height: 6vh;
     padding-left: 20px;
 
-}
+}*/
 /* Search bar */
 .form-control{
     background-color: #fffae6;
@@ -65,7 +65,7 @@ body{
 .btn{
     background-color: #FFB400;
     padding-top: 10px;
-    margin-left: 8px;
+    margin-left: 5px;
     border:none;
     border-radius: 8px;
     min-width: 5vw;
@@ -84,7 +84,6 @@ body{
     padding-left: 12px;
     padding-top:20px;
     font-size: 28px;
-    text-decoration: underline;
     color: #2F3939;
 }
 /*Cards*/
@@ -97,6 +96,13 @@ body{
     right:0%;
     bottom:0%;
     margin-top:80px;
+    min-width: 4vw;
+    min-height: 2vh;
+}
+.card-img-villager{
+    padding: 5px 6px;
+    width: 100%;
+    border-radius: 11px;
 }
 .card .card-villager-type{
     background-color:#8EDCE6;
@@ -120,13 +126,11 @@ body{
 
 .card .btn-primary:hover{
     background-color: #50B9AB;
-
 }
 
 /*Footer section*/
 #footer{
     color: #8A7B66;
-    position: absolute;
     bottom: 0;
     padding: 15px 20px;
     margin-left: 15px;
