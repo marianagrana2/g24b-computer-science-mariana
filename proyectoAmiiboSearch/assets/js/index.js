@@ -45,4 +45,51 @@ form.addEventListener('submit',(event) => {
         alert('Ocurrió un error. Inténtalo de nuevo.')
     })
 });
+//Funcion todos los amiibos
+async function getAmiibos(){
+    const response = await fetch('https://www.amiiboapi.com/api/amiibo/')
+    const data = await response.json();
+    return data.amiibo;
+}
+//Filtrar por tipo con el elemento select y mostrarlo en pantalla
+const typeSelect = document.querySelector('#typeSelect');
+async function getAmiibosByType(type){
+    const response = await fetch(`https://www.amiiboapi.com/api/amiibo/?type=${type}`)
+    const data = await response.json();
+    const amiibos = data.amiibo;
+    return amiibos;
+}
+function displayAmiibosByType(){
+    const type = typeSelect.value;
 
+    getAmiibosByType(type)
+        .then(amiibos => {
+            results.innerHTML = '';
+
+            amiibos.forEach(amiibo => {
+                const amiiboName = document.createElement('h2');
+                const amiiboImage = document.createElement('img');
+                const amiiboSeries = document.createElement('p');
+                const amiiboGame = document.createElement('p');
+
+                amiiboName.textContent = amiibo.name;
+                amiiboImage.src = amiibo.image;
+                amiiboSeries.textContent = `Colección:  ${amiibo.amiiboSeries}`;
+                amiiboGame.textContent = `Juego: ${amiibo.gameSeries}`;
+
+                const amiiboContainer = document.createElement('div');
+                amiiboContainer.appendChild(amiiboName);
+                amiiboContainer.appendChild(amiiboImage);
+                amiiboContainer.appendChild(amiiboSeries);
+                amiiboContainer.appendChild(amiiboGame);
+
+                results.appendChild(amiiboContainer);
+            });
+        })
+        .catch(error =>{
+            console.error(error);
+            alert('Ocurrió un error. Inténtalo de nuevo.')
+        })
+}
+
+typeSelect.addEventListener('change', displayAmiibosByType);
