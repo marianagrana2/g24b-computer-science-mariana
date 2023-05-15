@@ -11,7 +11,7 @@ async function getAmiiboByName(name){
     const amiibos = data.amiibo.filter(amiibo => amiibo.name.includes(name));
     return amiibos;
 }
-//Mostrar resultados en pantalla
+//Mostrar resultados en pantalla con input y submit
 form.addEventListener('submit',(event) => {
     event.preventDefault();
     const searchValue = searchInput.value.toLowerCase();
@@ -45,12 +45,6 @@ form.addEventListener('submit',(event) => {
         alert('Ocurrió un error. Inténtalo de nuevo.')
     })
 });
-//Funcion todos los amiibos
-async function getAmiibos(){
-    const response = await fetch('https://www.amiiboapi.com/api/amiibo/')
-    const data = await response.json();
-    return data.amiibo;
-}
 //Filtrar por tipo con el elemento select y mostrarlo en pantalla
 const typeSelect = document.querySelector('#typeSelect');
 async function getAmiibosByType(type){
@@ -74,7 +68,7 @@ function displayAmiibosByType(){
 
                 amiiboName.textContent = amiibo.name;
                 amiiboImage.src = amiibo.image;
-                amiiboSeries.textContent = `Colección:  ${amiibo.amiiboSeries}`;
+                amiiboSeries.textContent = `Colección: ${amiibo.amiiboSeries}`;
                 amiiboGame.textContent = `Juego: ${amiibo.gameSeries}`;
 
                 const amiiboContainer = document.createElement('div');
