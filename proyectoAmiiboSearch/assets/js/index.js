@@ -65,7 +65,7 @@ function displayAmiibosByType(){
     getAmiibosByType(type)
         .then(amiibos => {
             results.innerHTML = '';
-
+            
             amiibos.forEach(amiibo => {
                 const amiiboName = document.createElement('h2');
                 const amiiboImage = document.createElement('img');
@@ -82,8 +82,9 @@ function displayAmiibosByType(){
                 amiiboContainer.appendChild(amiiboImage);
                 amiiboContainer.appendChild(amiiboSeries);
                 amiiboContainer.appendChild(amiiboGame);
-
+                
                 results.appendChild(amiiboContainer);
+                
             });
         })
         .catch(error =>{
@@ -93,3 +94,4 @@ function displayAmiibosByType(){
 }
 
 typeSelect.addEventListener('change', displayAmiibosByType);
+
