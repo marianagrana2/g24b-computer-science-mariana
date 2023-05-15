@@ -12,6 +12,22 @@ height: 70px;
 #form{
     padding-top: 67px;
     padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:7px;
+}
+#form #typeSelect{
+    background-color: #ffffff;
+    padding-left: 15px;
+    margin-right: 50px;
+    min-width: 10vw;
+    min-height: 5.5vh;
+    border: 1px solid rgba(86,103,137,0.18);
+    border-radius: 6px;
+    font-size: 16px;
+   
+    
 }
 #form .btn-outline-primary{
     color: #c7007b;
@@ -26,7 +42,9 @@ height: 70px;
     background-color: #fff;
     min-width: 40vw;
     min-height:5.5vh;
-    padding-left: 15px;
+    padding-left: 20px;
+    margin-left:40px ;
     border: 1px solid rgba(86,103,137,0.26);
-    border-radius: 8px;
+    border-radius: 6px;
+    font-size: 16px;
 }
