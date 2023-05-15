@@ -1,0 +1,32 @@
+*{
+    font-family: 'Arvo', serif;
+    box-sizing: border-box;
+}
+
+
+#logo{
+padding-top: 20px;
+width: 250px;
+height: 70px;
+}
+#form{
+    padding-top: 67px;
+    padding-bottom: 50px;
+}
+#form .btn-outline-primary{
+    color: #c7007b;
+    border: 1px solid #c7007b;
+}
+#form .btn-outline-primary:hover{
+    background-color: #c7007b;
+    color:#ffffff;
+}
+
+#form #input{
+    background-color: #fff;
+    min-width: 40vw;
+    min-height:5.5vh;
+    padding-left: 15px;
+    border: 1px solid rgba(86,103,137,0.26);
+    border-radius: 8px;
+}
